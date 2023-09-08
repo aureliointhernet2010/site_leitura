@@ -1,37 +1,50 @@
-*{
-    margin: 0;
+body{
+    height: 50vh;
+}
+header{
+    background-image: url('../img/back-bg.png');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
-.logo_marca{
-    width: 120px;
-    margin-right: 50%;
-
-
-    
-}
-.nav_bar{
-    background-color: rgb(36, 35, 30);
-   
-   
+header::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url('../img/wave-bottom.svg');
+    height: 205px;
 }
 
-.nav_bar ul li{
-    list-style: none;
-    font-size: 20px;
-    float: left;
-    margin-left: 10%;
+.header-content h1{
+    font-size: 35px;
+    color: wheat;
+    text-transform: capitalize;
+}
+
+.header-content p{
+    font-size: 15px;
+    margin: 20px 0 25px;
+    color: wheat;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.links{
+    border-radius: 50px;
+    background: white;
+    padding: 15px 30px;
+    min-width: 170px;
+    border: 2px solid white;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
     display: inline-block;
-    width: 200px;
-    
+    text-align: center;
+    margin-right: 12px;
+    transition: all 0.5s ease-in;
 }
-
-.nav_bar a{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.banner_site{
-    margin-top: 20;
-}
-
-
