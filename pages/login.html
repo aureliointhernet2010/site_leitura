@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangátivo Kariri| Cadastrar</title>
+    <script src="../js/perfil.js"></script>
+    <link rel="stylesheet" href="../css/registros.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastre-se no site</h1>
+    </header>
+    
+    <form action="">
+        <legend>Nome:</legend>
+        <input type="text">
+        
+        <legend>Idade: </legend>
+        <input type="text">
+
+        <legend>Email</legend>
+        <input type="email">
+
+        <legend>Senha</legend>
+        <input type="password">
+
+        <legend>Pergunta, Você é:</legend>
+        <input type="radio">Estudante 
+        <input type="radio">Professor(a) 
+        <input type="radio">Universtário(a)
+        <br>
+
+        <legend>Foto de perfil:</legend>
+        <img name="perfiluser" style="width: 150px; height: 150px"><br> 
+        <input class="form-control" type="file" name="imagem" id="imagem" onchange="previewImagem()" required=""><br>
+
+        <input value="ENTRAR" type="submit" href="">
+
+
+
+    </form>
+</body>
+</html>
