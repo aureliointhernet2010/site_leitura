@@ -1,9 +1,16 @@
 /*Formatação Página Inicial*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .cabecalho{
-    
+    background-image: url('../img/banner02test.png');
+    height: 60vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .nav_bar{
-    background-color:rgb(162, 162, 255);
+   
     position: fixed;
     width: 100vw;
     height: 50px;
@@ -25,7 +32,7 @@
     padding: 5px 20px;
     font-size: 14px;
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: rgb(92, 92, 92);
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.215vw;
@@ -38,5 +45,68 @@
 }
 
 .tela_principal{
+    margin-top: 2%;
+}
+.white_square{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
 
+.titulo-1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#traco {
+    height: 2px;
+    background-color: #282680;
+    border: #422680 1px solid;
+    width: 370px;
+}
+
+.blocos{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 15px;
+    background-color: rgb(17, 127, 201);
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blocos_2{
+    background-color: #d4d4d4;
+    padding: 10px 10px 0 10px;
+    
+}
+
+.area_bloco{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.revista{
+    width: 15%;
+    padding: 6px 12px;
+    background-color: #8d8d8d;
+    border-radius: 10px;
+
+}
+
+.titulo_manga{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.legenda_manga{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.acessar_manga{
+    text-decoration: none;
+    color: white;
+    border-radius: 35px;
+    background: #282680;
+    text-align: center;
+    
 }
