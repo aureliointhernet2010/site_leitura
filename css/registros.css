@@ -1,4 +1,74 @@
 body{
-    background-color: rgb(194, 173, 233);
+
+    font-family: 'Open Sans', sans-serif;;
 }
 
+.cadast_mensg{
+    width: 50%;
+    min-height: 100vh;
+    padding: 2rem;
+    float: left;
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(252, 252, 252);
+}
+
+.texto_para{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    opacity: 95%;
+    width: 50%;
+    min-height: 100vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.campo_input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 60%;
+    height: 30px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+   
+}
+
+legend{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.submit_bot{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 50%;
+    background: #466189;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.acessar_msg{
+    color:#1d478b
+}
+.foto{
+    background-color: rgb(171, 186, 228);
+    border: 3px solid black;
+}

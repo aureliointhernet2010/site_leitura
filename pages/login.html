@@ -7,40 +7,71 @@
     <title>Mangátivo Kariri| Cadastrar</title>
     <script src="../js/perfil.js"></script>
     <link rel="stylesheet" href="../css/registros.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7cdd971c93.js" crossorigin="anonymous"></script> 
+
+    <style>
+        body{
+            background-image: url('https://wallpaperaccess.com/full/2402739.jpg');
+        }
+    .container {
+    background: white;
+    opacity: 90%;
+    width: 50%;
+    min-height: 100vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-left: 50%;
+    text-align: center;
+}
+
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Cadastre-se no site</h1>
+    <header class="cadast_mensg">
+        <img src="../img/site_logo33.png" alt="" width="300px" height="270px">
+        <h1 class="titulo">Bem vindo ao nosso site!</h1>
+        <p class="texto_para">A criatividade e a arte mudam a vida das pessoas</p>
+        <p class="texto_para">Venha mudar você também</p>
+        
     </header>
     
+    
+    <main class="container">
+
+
+        <h2 class="acessar_msg">Mangátivo Kariri Acessar</h2>
     <form action="">
-        <legend>Nome:</legend>
-        <input type="text">
+        <legend> <i class="fa-solid fa-user" style="color: #466189;"></i> Nome:</legend>
+        <input class="campo_input" type="text">
         
-        <legend>Idade: </legend>
-        <input type="text">
+        <legend> <i class="fa-regular fa-calendar-days " style="color: #466189;"></i> Idade: </legend>
+        <input class="campo_input" type="text">
 
-        <legend>Email</legend>
-        <input type="email">
+        <legend> <i class="fa-solid fa-envelope" style="color: #466189;"></i> Email:</legend>
+        <input class="campo_input" type="email">
 
-        <legend>Senha</legend>
-        <input type="password">
+        <legend> <i class="fa-solid fa-lock" style="color: #466189;"></i> Senha: </legend>
+        <input class="campo_input" type="password">
 
-        <legend>Pergunta, Você é:</legend>
-        <input type="radio">Estudante 
-        <input type="radio">Professor(a) 
-        <input type="radio">Universtário(a)
-        <br>
+        <legend>Você é:</legend>
+        <input type="radio"> <i class="fa-solid fa-book-open-reader" style="color: #466189;"></i> Estudante 
+        <input type="radio"> <i class="fa-solid fa-graduation-cap" style="color: #466189;"></i>Professor(a) 
+        <input type="radio"> <i class="fa-solid fa-universal-access" style="color: #466189;"></i>Universtário(a)
+        <br><br>
 
-        <legend>Foto de perfil:</legend>
-        <img name="perfiluser" style="width: 150px; height: 150px"><br> 
+        <legend> <i class="fa-solid fa-camera" style="color: #466189;"></i> Foto de perfil:</legend>
+        <img name="perfiluser" style="width: 150px; height: 150px" class="foto"><br> 
         <input class="form-control" type="file" name="imagem" id="imagem" onchange="previewImagem()" required=""><br>
 
-        <input value="ENTRAR" type="submit" href="">
+        <input value="ENTRAR" type="submit" class="submit_bot" href=""><br>
         <a href="inicio.html">Teste</a>
 
 
 
     </form>
+
+</main>
 </body>
 </html>

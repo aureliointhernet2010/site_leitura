@@ -5,16 +5,17 @@
 }
 
 .cabecalho{
-    background-image: url('../img/banner02test.png');
+    background-image: url('../img/banner_mang.png');
     height: 60vh;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .nav_bar{
    
-    position: fixed;
+    
     width: 100vw;
     height: 50px;
     z-index: 3;
+    
 
 }
 
@@ -32,7 +33,7 @@
     padding: 5px 20px;
     font-size: 14px;
     display: inline-block;
-    color: rgb(92, 92, 92);
+    color:#b4b4b4;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.215vw;
@@ -109,4 +110,51 @@
     background: #282680;
     text-align: center;
     
+}
+
+.rodape_todo{
+    position: absolute;
+    width: 100%;
+    background-color: #280659;
+    color: white;
+    text-align: center;
+    height: auto;
+}
+
+.coluna1{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    left: 2%;
+    margin-bottom: 10px;
+    margin-top: 4%;
+}
+
+#hr1{
+    position: relative;
+    transform: rotate(90deg);
+    bottom: 65%;
+    background-color: #ffffff;
+    left: 100%;
+    width: 85%;
+    margin-top: 60%;
+}
+
+.info{
+    text-align: center;
+    color: white;
+}
+
+.texto_info{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cor2{
+    background-color: coral;
 }
